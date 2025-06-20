@@ -1,0 +1,17 @@
+name: Date and Message CI
+
+on: [push]
+
+jobs:
+  show-message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Mostrar data atual
+        run: echo "Data Atual: $(date)"
+
+      - name: Mostrar texto em mensagem.txt
+        run: cat message.txt
