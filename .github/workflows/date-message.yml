@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Mostrar data atual
-        run: echo "Data Atual: $(date)"
+        run: echo "Data Atual - $(date)"
 
       - name: Mostrar texto em mensagem.txt
         run: cat message.txt
