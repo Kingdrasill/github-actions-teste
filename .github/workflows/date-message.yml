@@ -14,4 +14,4 @@ jobs:
         run: echo "Data Atual - $(date)"
 
       - name: Mostrar texto em mensagem.txt
-        run: cat message.txt
+        run: cat mensagem.txt
